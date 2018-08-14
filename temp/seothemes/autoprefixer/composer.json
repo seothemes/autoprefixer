@@ -1,0 +1,20 @@
+{
+    "name": "seothemes/autoprefixer",
+    "description": "Automatically adds vendor prefixes to stylesheets.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "seothemes",
+            "email": "seothemeswp@gmail.com"
+        }
+    ],
+    "require": {
+        "sabberworm/php-css-parser": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SEOThemes\\Autoprefixer\\": "src/"
+        }
+    }
+}

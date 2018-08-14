@@ -1,0 +1,25 @@
+{
+  "name": "seothemes/wp-autoprefixer",
+  "description": "Automatically adds browser prefixes to stylesheets",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "seothemes",
+      "email": "seothemeswp@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "seothemes/autoprefixer": "@dev"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "temp/seothemes/autoprefixer",
+      "options": {
+        "symlink": true
+      }
+    }
+  ]
+}
