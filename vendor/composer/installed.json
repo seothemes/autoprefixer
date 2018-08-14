@@ -1,5 +1,39 @@
 [
     {
+        "name": "seothemes/autoprefixer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "temp/seothemes/autoprefixer",
+            "reference": "013bf219a0d117c34618c02b24f7c795b2c744a0",
+            "shasum": null
+        },
+        "require": {
+            "sabberworm/php-css-parser": "*"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SEOThemes\\Autoprefixer\\": "src/"
+            }
+        },
+        "license": [
+            "GPL-3.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "seothemes",
+                "email": "seothemeswp@gmail.com"
+            }
+        ],
+        "description": "Automatically adds vendor prefixes to stylesheets.",
+        "transport-options": {
+            "symlink": true
+        }
+    },
+    {
         "name": "sabberworm/php-css-parser",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -44,39 +78,5 @@
             "parser",
             "stylesheet"
         ]
-    },
-    {
-        "name": "seothemes/autoprefixer",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "dist": {
-            "type": "path",
-            "url": "temp/seothemes/autoprefixer",
-            "reference": "013bf219a0d117c34618c02b24f7c795b2c744a0",
-            "shasum": null
-        },
-        "require": {
-            "sabberworm/php-css-parser": "*"
-        },
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "SEOThemes\\Autoprefixer\\": "src/"
-            }
-        },
-        "license": [
-            "GPL-3.0-or-later"
-        ],
-        "authors": [
-            {
-                "name": "seothemes",
-                "email": "seothemeswp@gmail.com"
-            }
-        ],
-        "description": "Automatically adds vendor prefixes to stylesheets.",
-        "transport-options": {
-            "symlink": true
-        }
     }
 ]
